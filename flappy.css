@@ -1,0 +1,109 @@
+/* assets from https://www.pixilart.com/ and own work */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    color: white;
+}
+
+.dorianer {
+    height: 100vh; /* viewport height */
+    position: relative;
+}
+
+#nebo {
+    background: url("https://i.imgur.com/lmlD4MK.png");
+    height: 475px;
+    width: 425px;
+    position: relative;
+    overflow: hidden;
+}
+
+@keyframes fogAnim {
+    0% {
+        left: 0px;
+    }
+    25% {
+        top: 100px;
+        left: 100px;
+    }
+    50% {
+        top: 220px;
+        left: 150px;
+    }
+    75% {
+        top: 50px;
+        left: 50px;
+    }
+    100% {
+        top: 250px;
+        left: 0px;
+    }
+}
+
+#fog {
+    background: url("https://i.imgur.com/OYQ3oUD.png");
+    height: 176px;
+    width: 260px;
+    position: absolute;
+    top: 250px;
+    animation: fogAnim 30s ease infinite;
+}
+
+#tlo{
+    background: url("https://i.imgur.com/w5nwQEu.png");
+    height: 90px;
+    width: 425px;
+}
+
+#fghost {
+    background: url("https://i.imgur.com/CMgvDS3.png");
+    transform: scaleX(-1); /* flip image */
+    position: absolute;
+    height: 45px;
+    width: 45px;
+    z-index: 1; /* send to front */
+}
+
+.pipe {
+    background: url("https://i.imgur.com/N2zVhVF.png");
+    width: 60px;
+    position: absolute;
+    right: 0px;
+}
+
+.pipeUp {
+    bottom: 0%;
+}
+
+.pipeDown {
+    top: 0%;
+    transform: scaleY(-1);
+}
+
+#start {
+    position: absolute; 
+    visibility: visible;
+    z-index: 2;
+}
+
+#lost {
+    position: absolute; 
+    visibility: hidden;
+    z-index: 3;
+}
+
+#stoperica {
+    position: absolute; 
+    visibility: visible;
+    z-index: 2;
+}
+
+#playcounter {
+    position: absolute;
+    left: 380px;
+    z-index: 3;
+}
