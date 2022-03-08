@@ -1,6 +1,7 @@
 # Flappy_Ghost
 A flappy bird JS clone. (Browser.)
 
-Screenshot:
+Assets from https://www.pixilart.com/ and own work.
 
+### Screenshot:
 ![](https://i.imgur.com/yUO8Gok.png)
