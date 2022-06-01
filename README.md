@@ -1,6 +1,8 @@
 # Flappy Ghost
 A flappy bird JS clone. (Browser.)
 
+Can be played here: https://marinolinic.github.io/Flappy_Ghost/
+
 Assets from https://www.pixilart.com/ and own work.
 
 ### Screenshot:
